@@ -15,6 +15,32 @@ A project of Black Myth Wukong based on Cocos2d-x 4.0.
 > ***Relevant course***
 > * Programing Paradigm 2025 (2025 年同济大学程序设计范式课程项目)
 
+## 仓库组成
+
+* [Classes](Classes)
+项目所有源代码
+
+* [Resources](Resources)
+项目资源：图片、3D模型、音效等
+
+* [CMakeLists.txt](CMakeLists.txt)
+CMake配置文件
+
+* [cocos2dx环境搭建指南](cocos2d-x环境配置指南.pdf)
+cocos2d-x 4.0环境配置文档
+
+---
+
+## 使用说明
+
+- 按照环境配置指南下载相应的软件并加入环境变量
+- 创建新的cocos项目(在对应目录下打开cmd，使用文档中cocos new命令)
+- 把项目中的三个文件夹替换成本仓库中的3个文件夹(Classes，Resources,CMakeLists.txt)
+- 用文档中CMake命令在proj.win32中编译一下
+- 打开VS，选择启动项目(必须选)，编译后即可运行
+  
+---
+
 # 黑神话：悟空（Cocos2d-x 4.0 引擎实现）
 
 > 第三人称动作冒险 + 敌人 AI + Boss 战（含二阶段）  
